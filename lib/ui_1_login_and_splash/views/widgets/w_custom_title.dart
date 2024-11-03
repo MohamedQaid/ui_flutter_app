@@ -8,14 +8,17 @@ class CustomTitle extends StatelessWidget {
   final String title;
   @override
   Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment.topLeft,
-      child: Text(
-        title,
-        style: const TextStyle(
-            fontWeight: FontWeight.w600,
-            fontSize: 18,
-            fontFamily: 'GraphikArabic'),
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      child: Align(
+        alignment: Alignment.topLeft,
+        child: Text(
+          title,
+          style: const TextStyle(
+              fontWeight: FontWeight.w600,
+              fontSize: 18,
+              fontFamily: 'GraphikArabic'),
+        ),
       ),
     );
   }

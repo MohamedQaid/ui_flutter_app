@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/w_custom_text_field.dart';
 import 'widgets/w_custom_title.dart';
 
 class LoginPageUi1 extends StatelessWidget {
@@ -24,10 +25,19 @@ class LoginPageUi1 extends StatelessWidget {
                       image: AssetImage('asset/images/logoCoding.png'))),
             ),
             const SizedBox(
-              height: 24,
+              height: 36,
             ),
             const CustomTitle(
               title: 'Login to your Account',
+            ),
+            const CustomTextField(
+              hint: 'Email',
+            ),
+            const CustomTextField(
+              hint: 'password',
+            ),
+            const SizedBox(
+              height: 30,
             ),
           ],
         ),
