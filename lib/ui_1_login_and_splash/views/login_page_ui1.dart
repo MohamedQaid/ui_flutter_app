@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/w_custom_button_ui1.dart';
 import 'widgets/w_custom_text_field.dart';
 import 'widgets/w_custom_title.dart';
 
@@ -37,8 +38,12 @@ class LoginPageUi1 extends StatelessWidget {
               hint: 'password',
             ),
             const SizedBox(
-              height: 30,
+              height: 24,
             ),
+            const CustomButtonUi1(
+              textButton: 'Sign in',
+            ), 
+
           ],
         ),
       ),
