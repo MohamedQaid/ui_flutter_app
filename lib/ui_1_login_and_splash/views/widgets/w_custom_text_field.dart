@@ -9,14 +9,17 @@ class CustomTextFieldUi1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsetsDirectional.symmetric(vertical: 8.0),
-      decoration: BoxDecoration(boxShadow: [
-        BoxShadow(
-          color: Colors.black.withOpacity(0.05),
-          blurRadius: 44,
-          spreadRadius: 1,
-        )
-      ]),
+      margin: const EdgeInsets.symmetric(vertical: 8),
+      decoration: BoxDecoration(
+          // color: Colors.orange,
+          borderRadius: BorderRadius.circular(8.0),
+          boxShadow: [
+            BoxShadow(
+                color: Colors.black.withOpacity(0.1),
+                blurRadius: 8,
+                spreadRadius: 1,
+                blurStyle: BlurStyle.outer)
+          ]),
       child: TextField(
         decoration: InputDecoration(
             hintText: hint,

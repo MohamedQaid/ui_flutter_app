@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class CustomButtonUi1 extends StatelessWidget {
@@ -15,7 +14,13 @@ class CustomButtonUi1 extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.blue.shade900,
           borderRadius: BorderRadius.circular(8.0),
-          boxShadow: [BoxShadow(color: Colors.blue.shade900)]),
+          boxShadow: [
+            BoxShadow(
+                color: Colors.black.withOpacity(0.1),
+                blurRadius: 8,
+                spreadRadius: 1,
+                blurStyle: BlurStyle.outer)
+          ]),
       child: MaterialButton(
         onPressed: () {},
         child: Text(
