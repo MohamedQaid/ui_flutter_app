@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomTitle extends StatelessWidget {
-  const CustomTitle({
+class CustomTitleUi1 extends StatelessWidget {
+  const CustomTitleUi1({
     super.key,
     required this.title,
   });
