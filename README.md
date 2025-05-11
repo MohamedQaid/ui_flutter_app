@@ -25,19 +25,11 @@ samples, guidance on mobile development, and a full API reference.
 ### 📁 هيكل المستودع
 
 ```plaintext
-├── login_ui/
+├── ui_1_login_and_splash/
 │   ├── assets/
-│   ├── lib/
+│   ├── views/
 │   └── preview.png
 │
-├── pharmacy_ui/
-│   ├── assets/
-│   ├── lib/
-│   └── preview.png
 │
-├── food_app_ui/
-│   ├── assets/
-│   ├── lib/
-│   └── preview.png
 │
 └── README.md

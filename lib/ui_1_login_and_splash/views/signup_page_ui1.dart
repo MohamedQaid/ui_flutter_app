@@ -60,13 +60,13 @@ class SignupPageUi1 extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     CustomIconBoxLoginUi1(
-                      pathImg: 'asset/images/ui1_png/facebook.png',
+                      pathImg: 'lib/ui_1_login_and_splash/assets/facebook.png',
                     ),
                     CustomIconBoxLoginUi1(
-                      pathImg: 'asset/images/ui1_png/google.png',
+                      pathImg: 'lib/ui_1_login_and_splash/assets/google.png',
                     ),
                     CustomIconBoxLoginUi1(
-                      pathImg: 'asset/images/ui1_png/x.png',
+                      pathImg: 'lib/ui_1_login_and_splash/assets/x.png',
                     ),
                   ],
                 ),
