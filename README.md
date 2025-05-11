@@ -33,3 +33,10 @@ samples, guidance on mobile development, and a full API reference.
 │
 │
 └── README.md
+
+---
+| التصميم          | الوصف                                               | المعاينة                                  |
+|------------------|-----------------------------------------------------|--------------------------------------------|
+| `login_ui`       | تصميم شاشة تسجيل دخول أنيقة            | ![login preview](lib/ui_1_login_and_splash/login_ui_preview.png)     |
+| `login_ui`       | تصميم شاشة انشاء حساب أنيقة            | ![login preview](lib/ui_1_login_and_splash/loginUp_ui_preview.png)     |
+
