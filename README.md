@@ -30,16 +30,26 @@ samples, guidance on mobile development, and a full API reference.
 │   ├── views/
 │   └── preview.png
 │
+├── ui_2_skinkeran/
+│   ├── assets/
+│   ├── screen/
+│   ├── widget/
+│   └── preview.png
 │
 │
 └── README.md
+```
 
 |------------------|------------------------------|--------------------------------------------|
-
 
 | التصميم          | الوصف                        | المعاينة                                  |
 |------------------|------------------------------|--------------------------------------------|
-| `login_ui`       | تصميم شاشة تسجيل دخول أنيقة | <img src="lib/ui_1_login_and_splash/login_ui_preview.png" width="250"/> |
-| `login_up_ui`    | تصميم شاشة إنشاء حساب       | <img src="lib/ui_1_login_and_splash/loginUp_ui_preview.png" width="250"/> |
+| `login_ui`       | تصميم شاشة تسجيل دخول أنيقة | <img src="lib/ui_1_login_and_splash/login_ui_preview.png" width="150"/> |
+| `login_up_ui`    | تصميم شاشة إنشاء حساب       | <img src="lib/ui_1_login_and_splash/loginUp_ui_preview.png" width="150"/> |
 
 |------------------|-----------------------------------------------------|--------------------------------------------|
+| `Home Skinkeran`       | UI Home  | <img src="lib/ui_2_skinkeran/ui-skinkeran-home.png" width="150"/> |
+| `Product Skinkeran`    | تصميم شاشة إنشاء حساب       | <img src="lib/ui_2_skinkeran/ui-skinkeran-prodect.png" width="150"/> |
+
+|------------------|-----------------------------------------------------|--------------------------------------------|
+
