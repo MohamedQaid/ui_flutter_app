@@ -62,6 +62,7 @@ flutter:
   assets:
     - asset/images/
     - lib/ui_1_login_and_splash/assets/
+    - lib/ui_2_skinkeran/assets/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
