@@ -22,7 +22,7 @@ class CustomIconBoxLoginUi1 extends StatelessWidget {
           ]),
       child: Image.asset(
         pathImg,
-        width: 85,
+        width: 80,
         height: 50,
       ),
     );
